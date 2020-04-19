@@ -182,8 +182,7 @@ public class PrintDevActivity extends Activity implements View.OnClickListener {
 			showMessage(getResources().getString(R.string.print_start_time)+startTime);
   			printerDev.printText(new ArrayList<PrintItemObj>(){
 				{
-					add (new PrintItemObj ("sudhir kumar"));
-					add (new PrintItemObj ("Mobile number: -9350503212"));
+					add (new PrintItemObj ("Fahad Ali"));
 					add (new PrintItemObj ("default print data test"));
 					add (new PrintItemObj ("Print data font enlargement", 24));
 					add (new PrintItemObj ("Print data font enlargement", 24));
