@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" >
+     />
+    <LinearLayout
+        android:id="@+id/main_linearlayout"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <!-- 获取打印状态 -->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="getPrintState"
+            android:text="@string/print_status_str"
+            android:textSize="10sp" />
+
+        <!-- 打印文本 -->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="printText"
+            android:text="@string/print_text_str"
+            android:textSize="10sp" />
+
+        <!-- 打印条码 -->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="printBarCode"
+            android:text="@string/print_barcode_str"
+            android:textSize="10sp" />
+
+        <!-- 打印位图 -->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="printBitmap"
+            android:text="@string/print_bitmap_str"
+            android:textSize="10sp" />
+        <!-- 设置打印灰度 -->
+
+        <!--<Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="setPrintHGray"
+            android:text="设置打印灰度(黑)"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="setPrintLGray"
+            android:text="设置打印灰度(浅)"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="setPrintNGray"
+            android:text="设置打印灰度(正常)"
+            android:textSize="10sp" />-->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="printBigBuy"
+            android:text="@string/print_big_buy_str"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="printSmBuy"
+            android:text="@string/print_small_buy_str"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="printBitmaps"
+            android:text="@string/print_bitmaps_str"
+            android:textSize="10sp" />
+        <!--<Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="printQrCode"
+            android:text="打印二维码"
+            android:textSize="10sp" />-->
+    </LinearLayout>
+
+</LinearLayout>

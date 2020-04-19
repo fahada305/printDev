@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">T1 Printer</string>
+
+    <string name="print_status_str">Get print status</string>
+    <string name="print_status">The obtained printer status:</string>
+    <string name="print_start_time">Start printing, start time :</string>
+    <string name="print_end_time">Print completed, the end time is:</string>
+    <string name="print_error_code">Print error, error code:</string>
+    <string name="print_success">The data is printed successfully</string>
+    <string name="print_text_str">Print Text</string>
+    <string name="print_barcode_str">Print barCode</string>
+    <string name="print_bitmap_str">Print bitmap</string>
+    <string name="set_print_hgray_str">Set print gray(height)</string>
+    <string name="set_print_lgray_str">Set print gray(low)</string>
+    <string name="set_print_ngray_str">Set print gray(nomall)</string>
+    <string name="print_big_buy_str">Print buy(big)</string>
+    <string name="print_small_buy_str">Print buy(small)</string>
+    <string name="print_bitmaps_str">Print bitmaps</string>
+    <string name="print_qrcode_str">Print QRCode</string>
+
+    <string name="print">Printer</string>
+</resources>
